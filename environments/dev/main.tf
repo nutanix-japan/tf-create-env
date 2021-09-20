@@ -3,9 +3,9 @@ module "dev" {
 
     source              = "../../images"
     environment         = "dev"
-    image_name          = "centos"
+    dev_image_name      = var.dev_image_name
     image_description   = "centos image"
-    image_type          = "DISK"
-    image_source_uri    = "http://10.42.194.11/workshop_staging/CentOS7.qcow2"
-}
+    image_type          = "DISK_IMAGE"
+    dev_image_uri       = var.dev_image_uri
 
+}

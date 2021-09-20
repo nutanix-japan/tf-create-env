@@ -3,9 +3,9 @@ module "prod" {
 
     source              = "../../images"
     environment         = "prod"
-    image_name          = "autodc"
+    prod_image_name     = var.prod_image_name
     image_description   = "autodc image"
-    image_type          = "DISK"
-    image_source_uri    = "http://10.42.194.11/workshop_staging/AutoDC2.qcow2"
+    image_type          = "DISK_IMAGE"
+    prod_source_uri     = var.prod_image_uri
 
 }

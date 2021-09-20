@@ -38,3 +38,19 @@ variable "vm_master_count" {
 
 variable "vm_worker_count" {
 }
+
+variable "prod_image_name" {
+
+}
+
+variable "prod_image_uri" {
+
+}
+
+variable "dev_image_name" {
+
+}
+
+variable "dev_image_uri" {
+
+}

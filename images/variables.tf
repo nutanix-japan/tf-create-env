@@ -2,7 +2,6 @@ variable "image_name" {
     
 }
 
-
 variable "image_description" {
     
 }
